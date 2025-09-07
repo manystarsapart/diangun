@@ -11,7 +11,7 @@ import { toggleLights } from '../visual/lights';
 import { toggleMenu } from '../components/menu';
 import { toggleKeyboardMode } from '../audio/switchKeyboard';
 import { transcribeKeypress } from '../sheets/transcribe';
-import { userKeybinds } from './keybind';
+// import { userKeybinds } from './keybind';
 
 let cumulativeKeypress: number = parseInt(localStorage.getItem("cumulativeKeypress") ?? '0') || 0;
 
@@ -232,7 +232,7 @@ export function refreshKeypressHandlers() {
 
 export function registerKeyDown(key:string) {
 
-    if (userKeybinds.isListeningForKeybind) return;
+    // if (userKeybinds.isListeningForKeybind) return;
 
     // const keyPressTime: number = performance.now(); // for latency
     let midiNote: number = 0;

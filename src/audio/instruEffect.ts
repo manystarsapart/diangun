@@ -107,7 +107,7 @@ const ottoSynth = createSampler({
 // expt
 
 const expt1 = createSampler({
-    name: "expt1",
+    name: "teto",
     baseUrl: "../assets/audio/expt1/",
     noteMap: {
         "C4": "c4.wav",
@@ -116,7 +116,7 @@ const expt1 = createSampler({
 }, 0);
 
 const expt2 = createSampler({ // 凤鸣
-    name: "expt2",
+    name: "凤鸣",
     baseUrl: "../assets/audio/expt2/",
     noteMap: {
         "F6": "f6.wav"
@@ -124,7 +124,7 @@ const expt2 = createSampler({ // 凤鸣
 }, 0);
 
 const expt3 = createSampler({ // 嘟
-    name: "expt3",
+    name: "嘟（处理）",
     baseUrl: "../assets/audio/expt3/",
     noteMap: {
         "Bb4": "bb4.wav"
@@ -162,9 +162,12 @@ export const RELEASE_SETTINGS = {
         "FM Synth",
         "AM Synth",
         "Otto - Synth",
-        "expt1",
-        "expt2",
-        "expt3"
+        // "expt1",
+        "teto",
+        // "expt2",
+        "凤鸣",
+        // "expt3",
+        "嘟（处理）",
     ]
 };
 
